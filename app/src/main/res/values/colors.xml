@@ -11,5 +11,5 @@
     <color name="gray">#EBEBEB</color>
     <color name="green">#8BC34A</color>
     <color name="red">#FF3131</color>
-    <color name="picked">#FFFFFF</color>
+    <color name="picked">#C1C1C1</color>
 </resources>

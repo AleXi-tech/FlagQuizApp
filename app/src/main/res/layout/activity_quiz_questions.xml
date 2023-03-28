@@ -54,7 +54,7 @@
         </LinearLayout>
         <TextView
                 android:id="@+id/tvOptonOne"
-                android:background="@color/gray"
+                android:background="@color/white"
                 android:text="Option One"
                 android:textSize="16sp"
                 android:padding="16dp"
@@ -64,7 +64,7 @@
                 android:layout_height="wrap_content"/>
         <TextView
                 android:id="@+id/tvOptonTwo"
-                android:background="@color/gray"
+                android:background="@color/white"
                 android:text="Option Two"
                 android:textSize="16sp"
                 android:padding="16dp"
@@ -74,7 +74,7 @@
                 android:layout_height="wrap_content"/>
         <TextView
                 android:id="@+id/tvOptonThree"
-                android:background="@color/gray"
+                android:background="@color/white"
                 android:text="Option Three"
                 android:textSize="16sp"
                 android:padding="16dp"
@@ -84,7 +84,7 @@
                 android:layout_height="wrap_content"/>
         <TextView
                 android:id="@+id/tvOptonFour"
-                android:background="@color/gray"
+                android:background="@color/white"
                 android:text="Option Four"
                 android:textSize="16sp"
                 android:padding="16dp"

@@ -120,7 +120,7 @@ class QuizQuestionsActivity : AppCompatActivity() {
 
     private fun setSelectedQuestion(view: View?) {
         val pickedColor = getColor(R.color.picked)
-        val grayColor = getColor(R.color.gray)
+        val grayColor = getColor(R.color.white)
         binding.tvOptonOne.setBackgroundColor(if (view == binding.tvOptonOne) pickedColor else grayColor)
         binding.tvOptonTwo.setBackgroundColor(if (view == binding.tvOptonTwo) pickedColor else grayColor)
         binding.tvOptonThree.setBackgroundColor(if (view == binding.tvOptonThree) pickedColor else grayColor)
