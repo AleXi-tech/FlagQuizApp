@@ -73,20 +73,15 @@ class QuizQuestionsActivity : AppCompatActivity() {
 
             when(binding.btnSubmit.text){
                 "SUBMIT" -> {
+                    if (correctAnswer == selectedOption) points++
                     setQuestionColorOnSubmitButton()
                     if (currentPosition == questionsList!!.size) binding.btnSubmit.text = "FINISH"
                     else binding.btnSubmit.text = "NEXT QUESTION"
                 }
-                "NEXT QUESTION" -> {
-                    if (correctAnswer == selectedOption) points++
+                "NEXT QUESTION", "FINISH" -> {
                     currentPosition++
                     showResultOrNextQuestion(name)
                     binding.btnSubmit.text = "SUBMIT"
-                }
-                "FINISH" -> {
-                    if (correctAnswer == selectedOption) points++
-                    currentPosition++
-                    showResultOrNextQuestion(name)
                 }
             }
         }
